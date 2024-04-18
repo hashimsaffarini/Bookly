@@ -1,3 +1,4 @@
+import 'package:bookly/core/utils/app_router.dart';
 import 'package:bookly/core/utils/assets.dart';
 import 'package:bookly/features/splash/presentation/views/widgets/sliding_text.dart';
 import 'package:flutter/cupertino.dart';
@@ -63,7 +64,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
       //   transition: Transition.fade,
       //   duration: const Duration(milliseconds: 500),
       // );
-      GoRouter.of(context).go('/HomeView');
+      GoRouter.of(context).push(AppRouter.kHomeView);
     });
   }
 }
