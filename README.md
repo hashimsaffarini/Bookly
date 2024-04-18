@@ -1,16 +1,11 @@
-# bookly
+# Bookly
 
-A new Flutter project.
+Bookly is a Flutter application that leverages the Google Books API to offer users a comprehensive book discovery experience. It features an elegant user interface, detailed book views, and robust search functionality, all built using the MVVM architectural pattern.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Splash Screen**: A welcoming first screen that smoothly transitions to the main content.
+- **Home Page**: Browse popular and recommended books.
+- **Detailed Book Views**: Get in-depth information about each book, including summaries and author details.
+- **Search Functionality**: Powerful search to quickly find books by title, author, or ISBN.
+- **State Management**: Efficient handling of app state changes.
