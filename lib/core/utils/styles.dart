@@ -11,18 +11,22 @@ abstract class Styles {
     fontSize: 20,
     fontWeight: FontWeight.normal,
     fontFamily: kGtSectraFine,
+    color: Colors.white,
   );
   static const textStyle30 = TextStyle(
     fontSize: 30,
     fontWeight: FontWeight.normal,
+    color: Colors.white,
     fontFamily: kGtSectraFine,
   );
   static const textStyle14 = TextStyle(
     fontSize: 14,
+    color: Colors.white,
     fontWeight: FontWeight.normal,
   );
   static const textStyle16 = TextStyle(
     fontSize: 16,
+    color: Colors.white,
     fontWeight: FontWeight.w500,
   );
 }
