@@ -20,7 +20,10 @@ class HomeRepoImp implements HomeRepo {
       }
       return Right(books);
     } catch (e) {
-      return Left(ServerFailure());
+      if (e is DioException) {
+        return Left(ServerFailure.fromDioException(e));
+      }
+      return Left(ServerFailure(e.toString()));
     }
   }
 
