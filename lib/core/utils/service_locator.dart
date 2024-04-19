@@ -6,13 +6,13 @@ import 'package:get_it/get_it.dart';
 final getIt = GetIt.instance;
 
 void setupServiceLocator() {
-  getIt.registerLazySingleton<ApiService>(
-    () => ApiService(
+  getIt.registerSingleton<ApiService>(
+    ApiService(
       Dio(),
     ),
   );
-  getIt.registerLazySingleton<HomeRepoImp>(
-    () => HomeRepoImp(
+  getIt.registerSingleton<HomeRepoImp>(
+    HomeRepoImp(
       apiService: getIt<ApiService>(),
     ),
   );
