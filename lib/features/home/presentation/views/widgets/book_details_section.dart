@@ -15,7 +15,10 @@ class BookDetailsSection extends StatelessWidget {
       children: [
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * 0.19),
-          child: const CustomBookImage(),
+          child: const CustomBookImage(
+            imgUrl:
+                'https://img.freepik.com/premium-photo/open-magic-book-magic-books_674594-24044.jpg',
+          ),
         ),
         const SizedBox(height: 43),
         const Text(

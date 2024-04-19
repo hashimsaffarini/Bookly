@@ -14,7 +14,9 @@ class SimilarBooksListView extends StatelessWidget {
         itemBuilder: (context, index) {
           return const Padding(
             padding: EdgeInsets.symmetric(horizontal: 5),
-            child: CustomBookImage(),
+            child: CustomBookImage(
+                imgUrl:
+                    'https://img.freepik.com/premium-photo/open-magic-book-magic-books_674594-24044.jpg'),
           );
         },
       ),
